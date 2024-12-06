@@ -1,0 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { AddRecipe } from "./components/pages/AddRecipe";
+import { Profile } from "./components/pages/Profile";
+import { Recipes } from "./components/pages/Recipes";
+
+<BrowserRouter>
+        <Routes>
+          <Route path="" element={<Homepage/>}/>
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/addrecipe" element={<AddRecipe/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/profile" element={<Profile/>}/>
+          <Route path="/recipes" element={<Recipes/>}/>
+        </Routes>
+      </BrowserRouter>
