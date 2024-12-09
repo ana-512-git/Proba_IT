@@ -35,10 +35,10 @@ function App() {
       Component = <ForgotPassword/>
   }
   return (
-    <div>
+    <>
       <Navbar/>
       {Component}
-    </div>
+    </>
   );
 }
 

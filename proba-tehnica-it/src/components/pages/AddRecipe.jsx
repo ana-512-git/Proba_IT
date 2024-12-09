@@ -1,9 +1,9 @@
 import React from "react";
 import "./AddRecipe.css"
 
-
 function AddRecipe(){
     return(
+      <>
         <div className="add-recipe-container">
       <div className="add-recipe-box">
         <form>
@@ -33,6 +33,7 @@ function AddRecipe(){
       </div>
       
     </div>
+    </>
     );
 }
 

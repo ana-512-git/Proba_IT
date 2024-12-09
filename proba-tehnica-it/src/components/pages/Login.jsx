@@ -3,6 +3,7 @@ import "./Login.css"
 
 function Login(){
     return (
+      <>
     <div className="login-container">
       <div className="login-box">
         <h2>Logheaza-te, chioraie matele!</h2>
@@ -35,7 +36,7 @@ function Login(){
       </div>
       
     </div>
-
+    </>
     );
 }
 
